@@ -1,0 +1,3 @@
+input_file=configs\\encoded_sources\\input.txt
+output_file=configs\\encoded_sources\\output.txt
+order = java_utils.MReader, configs\\exe_configs\\reader_cfg.txt-> java_utils.Translator, configs\\exe_configs\\exec_encode_cfg.txt-> java_utils.Translator, configs\\exe_configs\\exec_decode_cfg.txt -> java_utils.MWriter, configs\\exe_configs\\writer_cfg.txt
